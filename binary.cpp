@@ -8,7 +8,7 @@
 using namespace std;
 
 void rec(vector<int> a){
-	if(a.size() == 16){
+	if(a.size() == 5){
 		for(size_t i = 0; i < a.size(); i++){
 			if(a[i]) cout << GREEN;
 			if(!a[i]) cout << CYAN;
